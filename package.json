@@ -1,0 +1,22 @@
+{
+  "name": "example-repo",
+  "version": "1.0.0",
+  "description": "This repo should demonstrate the power of CLS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-wolgemuth/example-repo.git"
+  },
+  "author": "David Wolgemuth <davidjwolgemuth@wgmail.com> (https://david-wolgemuth.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-wolgemuth/example-repo/issues"
+  },
+  "homepage": "https://github.com/david-wolgemuth/example-repo#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
