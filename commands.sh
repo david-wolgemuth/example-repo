@@ -29,3 +29,17 @@ COMMENT
 # <*--CODE(1.2)
 git commit -m "Server Setup"
 # --*>
+
+<<"COMMENT"
+<*--SECTION(2.0)
+title: "Install Mongoose, Create File Structure"
+--*>
+COMMENT
+# <*--CODE(2.0)
+npm install mongoose --save
+mkdir config
+touch config/db.js
+mkdir models
+touch models/todo-item.js
+# --*>
+
