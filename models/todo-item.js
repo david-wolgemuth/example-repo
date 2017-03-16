@@ -39,4 +39,6 @@ const todoItemSchema = new Schema({
 }, {
     timestamps: true  // What does this option do? http://mongoosejs.com/docs/guide.html#timestamps
 });
+
+mongoose.model("TodoItem", todoItemSchema);
 // See all available data type:  http://mongoosejs.com/docs/schematypes.html

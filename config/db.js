@@ -4,6 +4,12 @@ title: "Mongoose Setup"
 description: "Connect to the database.  See http://mongoosejs.com/docs/connections.html for further details"
 --*>
 */
+/*
+<*--SECTION(2.3)
+title: "Load all models"
+description: "See https://nodejs.org/api/path.html#path_path_join_paths for information of why we are using `path`"
+--*>
+*/
 // <*--CODE(2.1)
 const mongoose = require("mongoose");
 // <*--CODE(2.3)

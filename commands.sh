@@ -43,3 +43,14 @@ mkdir models
 touch models/todo-item.js
 # --*>
 
+<<"COMMENT"
+<*--SECTION(3.0)
+title: "Setup Routes / Controllers"
+--*>
+COMMENT
+# <*--CODE(3.0)
+npm install body-parser --save
+touch config/routes.js
+mkdir controllers
+touch controllers/todo-items.js
+# --*>
