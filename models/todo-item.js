@@ -28,10 +28,11 @@ const todoItemSchema = new Schema({
         validate: {
             // Read about custom validations:  http://mongoosejs.com/docs/validation.html
             validator: function (date) {
-                return (new(date) < new Date())
+                return (new Date(date) > new Date())
             },
             message: "dueBy date must be in the future"
-        }
+        },
+        required: [true, "dueBy is required for TodoItem"]
     },
     completedAt: {
         type: Date
